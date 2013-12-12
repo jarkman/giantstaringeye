@@ -17,7 +17,7 @@ class Eye:
         '''
         self.azimuth_servo = Servo("P8_13", 0.0, 180.0)
         self.altitude_servo = Servo("P9_21",30.0,128.0)
-        self.pupil_servo = Servo("P9_16",0.0,130.0)
+        self.pupil_servo = Servo("P9_16",0.0,105.0); #130.0)
  
     
     def setAzimuth(self, angle):
